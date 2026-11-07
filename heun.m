@@ -9,7 +9,6 @@ h = (b-a)/N;
 yEksak = -2 + sqrt(2*b^4 - 2*b^2 + 2*b + 9);
 
 fprintf('\nHasil Perhitungan Metode Heun\ni\txn\t\tk1\t\tk2\t\tyn\n')
-% Iterasi ke-0
 x = a;
 y = y0;
 k = [];
