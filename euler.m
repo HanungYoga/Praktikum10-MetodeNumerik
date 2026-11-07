@@ -9,11 +9,9 @@ h = (b-a)/N;
 yEksak = -2 + sqrt(2*b^4 - 2*b^2 + 2*b + 9);
 
 fprintf('\nHasil Perhitungan Metode Euler\ni\txn\t\tyn\n')
-% Iterasi ke-0
 x = a;
 y = y0;
 fprintf('%d\t%f\t%f\n', 0, x, y);
-% Iterasi pertama sampai selesai
 for i = 1:N
   y(i+1) = y(i)+h*f(x(i),y(i));
   x(i+1) = x(i)+h;
